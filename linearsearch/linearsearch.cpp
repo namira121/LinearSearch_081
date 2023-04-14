@@ -17,10 +17,31 @@ void input()
 			cout << "\nArray hould have mininum 1 and maximum 20 elements. \n\n";
 	}
 	// Accept array elements
-	cout << "\n---------------------\n";
+	cout << "\n---------------------\n"; 
 	cout << " Enter Array Elements \n";
 	cout << "----------------------\n";
 	for (i = 0;i < n;i++)
-		
+	{
+		cout << "<" << (i + 1) << ">";
+		cin >> arr[i];
+	}
+}
 
+
+
+
+void LinearSearch()
+{
+	char ch; 
+	int comparisons; // Number of comparisons
+
+	do
+	{
+		//Accept the number to be searched
+		cout << "\nEnter the element you want to search: "; //Langkah 1
+		int item;
+		cin >> item;
+
+		comparisons = 0;
+	}
 }
