@@ -42,7 +42,7 @@ void LinearSearch()
 		int item;
 		cin >> item; 
 
-		comparisons = 0;
+		comparisons = 0; 
 		for (i = 0; i < n;i++) //Langkah 2,3,dan 4
 		{
 			comparisons++;
@@ -64,6 +64,6 @@ void LinearSearch()
 
 int main()
 {
-	input()
-
+	input();
+	LinearSearch();
 }
