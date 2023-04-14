@@ -58,7 +58,7 @@ void LinearSearch()
 		cout << "\nNumber of comparisons: " << comparisons << endl;
 
 		cout << "\nContinue search (y/n): ";
-		cin >> ch;
+		cin >> ch; 
 	} while ((ch == 'y') || (ch == 'Y'));
 }
 
