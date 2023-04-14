@@ -48,7 +48,7 @@ void LinearSearch()
 			comparisons++;
 			if (arr[i] == item) //Langkah 5A found
 			{
-				cout << "\n" << item << " found at position " << (i + 1) << endl;
+				cout << "\n" << item << " found at position " << (i + 1) << endl; 
 				break; 
 			}
 		}
